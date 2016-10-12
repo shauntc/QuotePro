@@ -56,15 +56,39 @@
 		28BF0EE21DAEB0F7009FE848 /* QuotePro */ = {
 			isa = PBXGroup;
 			children = (
-				28BF0EE31DAEB0F7009FE848 /* AppDelegate.swift */,
-				28BF0EE51DAEB0F7009FE848 /* MasterViewController.swift */,
-				28BF0EE71DAEB0F7009FE848 /* DetailViewController.swift */,
+				28BF0EF91DAEB12C009FE848 /* Model */,
+				28BF0EF81DAEB123009FE848 /* Controller */,
+				28BF0EF71DAEB117009FE848 /* View */,
+			);
+			path = QuotePro;
+			sourceTree = "<group>";
+		};
+		28BF0EF71DAEB117009FE848 /* View */ = {
+			isa = PBXGroup;
+			children = (
 				28BF0EE91DAEB0F7009FE848 /* Main.storyboard */,
 				28BF0EEC1DAEB0F7009FE848 /* Assets.xcassets */,
 				28BF0EEE1DAEB0F7009FE848 /* LaunchScreen.storyboard */,
-				28BF0EF11DAEB0F7009FE848 /* Info.plist */,
 			);
-			path = QuotePro;
+			name = View;
+			sourceTree = "<group>";
+		};
+		28BF0EF81DAEB123009FE848 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				28BF0EE51DAEB0F7009FE848 /* MasterViewController.swift */,
+				28BF0EE71DAEB0F7009FE848 /* DetailViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		28BF0EF91DAEB12C009FE848 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				28BF0EF11DAEB0F7009FE848 /* Info.plist */,
+				28BF0EE31DAEB0F7009FE848 /* AppDelegate.swift */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
