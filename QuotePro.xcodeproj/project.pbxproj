@@ -13,6 +13,14 @@
 		28BF0EEB1DAEB0F7009FE848 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28BF0EE91DAEB0F7009FE848 /* Main.storyboard */; };
 		28BF0EED1DAEB0F7009FE848 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28BF0EEC1DAEB0F7009FE848 /* Assets.xcassets */; };
 		28BF0EF01DAEB0F7009FE848 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28BF0EEE1DAEB0F7009FE848 /* LaunchScreen.storyboard */; };
+		28BF0EFB1DAEB2D9009FE848 /* QuoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28BF0EFA1DAEB2D9009FE848 /* QuoteView.swift */; };
+		28BF0EFD1DAEB320009FE848 /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28BF0EFC1DAEB320009FE848 /* Quote.swift */; };
+		28BF0EFF1DAEB52D009FE848 /* QuoteView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28BF0EFE1DAEB52D009FE848 /* QuoteView.xib */; };
+		28BF0F011DAEB9EF009FE848 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28BF0F001DAEB9EF009FE848 /* Photo.swift */; };
+		28BF0F031DAEBDD0009FE848 /* QuoteAndPhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28BF0F021DAEBDD0009FE848 /* QuoteAndPhotoCell.swift */; };
+		28BF0F071DAEC1DD009FE848 /* AddQuote.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28BF0F061DAEC1DD009FE848 /* AddQuote.storyboard */; };
+		28BF0F091DAED11E009FE848 /* AddQuoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28BF0F081DAED11E009FE848 /* AddQuoteViewController.swift */; };
+		28BF0F0B1DAEF721009FE848 /* FloatingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28BF0F0A1DAEF721009FE848 /* FloatingButton.swift */; };
 		F7EE41F31468DB2A54AEA6D2 /* Pods_QuotePro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73ECA9C8C738FC7A677DE32D /* Pods_QuotePro.framework */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +33,14 @@
 		28BF0EEC1DAEB0F7009FE848 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		28BF0EEF1DAEB0F7009FE848 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		28BF0EF11DAEB0F7009FE848 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28BF0EFA1DAEB2D9009FE848 /* QuoteView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuoteView.swift; sourceTree = "<group>"; };
+		28BF0EFC1DAEB320009FE848 /* Quote.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Quote.swift; sourceTree = "<group>"; };
+		28BF0EFE1DAEB52D009FE848 /* QuoteView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QuoteView.xib; sourceTree = "<group>"; };
+		28BF0F001DAEB9EF009FE848 /* Photo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		28BF0F021DAEBDD0009FE848 /* QuoteAndPhotoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuoteAndPhotoCell.swift; sourceTree = "<group>"; };
+		28BF0F061DAEC1DD009FE848 /* AddQuote.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = AddQuote.storyboard; sourceTree = "<group>"; };
+		28BF0F081DAED11E009FE848 /* AddQuoteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddQuoteViewController.swift; sourceTree = "<group>"; };
+		28BF0F0A1DAEF721009FE848 /* FloatingButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatingButton.swift; sourceTree = "<group>"; };
 		73ECA9C8C738FC7A677DE32D /* Pods_QuotePro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QuotePro.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB7639298D7BDFF96AD49B96 /* Pods-QuotePro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuotePro.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QuotePro/Pods-QuotePro.debug.xcconfig"; sourceTree = "<group>"; };
 		E454DAE2AA4018AEB0D6363B /* Pods-QuotePro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuotePro.release.xcconfig"; path = "Pods/Target Support Files/Pods-QuotePro/Pods-QuotePro.release.xcconfig"; sourceTree = "<group>"; };
@@ -76,6 +92,11 @@
 				28BF0EE91DAEB0F7009FE848 /* Main.storyboard */,
 				28BF0EEC1DAEB0F7009FE848 /* Assets.xcassets */,
 				28BF0EEE1DAEB0F7009FE848 /* LaunchScreen.storyboard */,
+				28BF0EFA1DAEB2D9009FE848 /* QuoteView.swift */,
+				28BF0EFE1DAEB52D009FE848 /* QuoteView.xib */,
+				28BF0F021DAEBDD0009FE848 /* QuoteAndPhotoCell.swift */,
+				28BF0F061DAEC1DD009FE848 /* AddQuote.storyboard */,
+				28BF0F0A1DAEF721009FE848 /* FloatingButton.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -85,6 +106,7 @@
 			children = (
 				28BF0EE51DAEB0F7009FE848 /* MasterViewController.swift */,
 				28BF0EE71DAEB0F7009FE848 /* DetailViewController.swift */,
+				28BF0F081DAED11E009FE848 /* AddQuoteViewController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -94,6 +116,8 @@
 			children = (
 				28BF0EF11DAEB0F7009FE848 /* Info.plist */,
 				28BF0EE31DAEB0F7009FE848 /* AppDelegate.swift */,
+				28BF0EFC1DAEB320009FE848 /* Quote.swift */,
+				28BF0F001DAEB9EF009FE848 /* Photo.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -178,8 +202,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				28BF0EF01DAEB0F7009FE848 /* LaunchScreen.storyboard in Resources */,
+				28BF0F071DAEC1DD009FE848 /* AddQuote.storyboard in Resources */,
 				28BF0EED1DAEB0F7009FE848 /* Assets.xcassets in Resources */,
 				28BF0EEB1DAEB0F7009FE848 /* Main.storyboard in Resources */,
+				28BF0EFF1DAEB52D009FE848 /* QuoteView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -238,9 +264,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28BF0F011DAEB9EF009FE848 /* Photo.swift in Sources */,
 				28BF0EE81DAEB0F7009FE848 /* DetailViewController.swift in Sources */,
+				28BF0F0B1DAEF721009FE848 /* FloatingButton.swift in Sources */,
+				28BF0F031DAEBDD0009FE848 /* QuoteAndPhotoCell.swift in Sources */,
 				28BF0EE61DAEB0F7009FE848 /* MasterViewController.swift in Sources */,
 				28BF0EE41DAEB0F7009FE848 /* AppDelegate.swift in Sources */,
+				28BF0F091DAED11E009FE848 /* AddQuoteViewController.swift in Sources */,
+				28BF0EFD1DAEB320009FE848 /* Quote.swift in Sources */,
+				28BF0EFB1DAEB2D9009FE848 /* QuoteView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
