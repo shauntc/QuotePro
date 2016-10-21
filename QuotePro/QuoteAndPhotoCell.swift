@@ -17,8 +17,11 @@ class QuoteAndPhotoCell: UITableViewCell {
     var quoteAndPhoto:(quote:Quote, photo:Photo)? {
         didSet{
             self.quoteLabel.text = quoteAndPhoto?.quote.text
+            self.quoteLabel.textColor = .lightText
             self.authorLabel.text = quoteAndPhoto?.quote.author
+            self.authorLabel.textColor = .lightText
             self.photoImageView.image = quoteAndPhoto?.photo.image
+            
         }
     }
     

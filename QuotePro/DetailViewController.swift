@@ -10,7 +10,9 @@ import UIKit
 
 class DetailViewController: UIViewController {
 
+    var detailItem: (quote:Quote, photo:Photo)?
 
+    @IBOutlet weak var shareButton: FloatingButton!
     @IBOutlet var quoteView: QuoteView!
 
     func configureView() {
@@ -23,16 +25,40 @@ class DetailViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        self.view.bringSubview(toFront: shareButton)
         self.configureView()
     }
-
-    var detailItem: (quote:Quote, photo:Photo)? {
-        didSet {
-            // Update the view.
-//            self.configureView()
+    @IBAction func shareButtonPressed(_ sender: AnyObject) {
+        let image = self.captureImage()
+        
+        guard let imageSafe = image else {
+            return;
         }
+        
+        let shareMenu = UIActivityViewController(activityItems: [imageSafe], applicationActivities: [])
+        
+        navigationController?.present(shareMenu, animated: true, completion: nil)
     }
 
-
+    func captureImage() -> (UIImage?) {
+        shareButton.isHidden = true
+        navigationController?.navigationBar.isHidden = true
+        
+        UIGraphicsBeginImageContext(quoteView.frame.size)
+        let context = UIGraphicsGetCurrentContext()
+        if let context = context {
+            self.view.layer.render(in: context)
+        }
+        let image = UIGraphicsGetImageFromCurrentImageContext()
+        UIGraphicsEndImageContext()
+        
+        shareButton.isHidden = false
+        navigationController?.navigationBar.isHidden = false
+        if let image = image {
+                return image
+        }else{
+            return nil
+        }
+    }
 }
 
