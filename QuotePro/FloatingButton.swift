@@ -5,7 +5,7 @@
 //  Created by Shaun Campbell on 2016-10-12.
 //  Copyright © 2016 Shaun Campbell. All rights reserved.
 //
-
+//Some small annotation
 import UIKit
 
 class FloatingButton: UIButton {
